@@ -1,0 +1,11 @@
+tasks:
+  - init: yarn install
+    command: yarn start
+  
+ports:
+  - port: 3000
+    onOpen: ignore
+
+vscode:
+  extensions:
+    - dbaeumer.vscode-eslint@2.0.15:/v3eRFwBI38JLZJv5ExY5g==
